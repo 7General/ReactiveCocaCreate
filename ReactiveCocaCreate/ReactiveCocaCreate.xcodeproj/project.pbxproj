@@ -14,6 +14,9 @@
 		258E5A341DFA86DA00DDF32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258E5A331DFA86DA00DDF32B /* Assets.xcassets */; };
 		258E5A371DFA86DA00DDF32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258E5A351DFA86DA00DDF32B /* LaunchScreen.storyboard */; };
 		258E5A431DFA873F00DDF32B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A421DFA873F00DDF32B /* MainViewController.m */; };
+		258E5A471DFA8C4800DDF32B /* RACSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A461DFA8C4800DDF32B /* RACSignal.m */; };
+		258E5A4A1DFA8CA900DDF32B /* RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A491DFA8CA900DDF32B /* RACSubject.m */; };
+		258E5A4D1DFA8D8900DDF32B /* RACBaseProctal.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A4C1DFA8D8900DDF32B /* RACBaseProctal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		258E5A381DFA86DA00DDF32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		258E5A411DFA873F00DDF32B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		258E5A421DFA873F00DDF32B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		258E5A451DFA8C4800DDF32B /* RACSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSignal.h; sourceTree = "<group>"; };
+		258E5A461DFA8C4800DDF32B /* RACSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignal.m; sourceTree = "<group>"; };
+		258E5A481DFA8CA900DDF32B /* RACSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSubject.h; sourceTree = "<group>"; };
+		258E5A491DFA8CA900DDF32B /* RACSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSubject.m; sourceTree = "<group>"; };
+		258E5A4B1DFA8D8900DDF32B /* RACBaseProctal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseProctal.h; sourceTree = "<group>"; };
+		258E5A4C1DFA8D8900DDF32B /* RACBaseProctal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseProctal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,12 @@
 		258E5A401DFA872300DDF32B /* CustomReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				258E5A4B1DFA8D8900DDF32B /* RACBaseProctal.h */,
+				258E5A4C1DFA8D8900DDF32B /* RACBaseProctal.m */,
+				258E5A451DFA8C4800DDF32B /* RACSignal.h */,
+				258E5A461DFA8C4800DDF32B /* RACSignal.m */,
+				258E5A481DFA8CA900DDF32B /* RACSubject.h */,
+				258E5A491DFA8CA900DDF32B /* RACSubject.m */,
 			);
 			name = CustomReactiveCocoa;
 			sourceTree = "<group>";
@@ -180,7 +195,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				258E5A2F1DFA86DA00DDF32B /* ViewController.m in Sources */,
+				258E5A471DFA8C4800DDF32B /* RACSignal.m in Sources */,
+				258E5A4D1DFA8D8900DDF32B /* RACBaseProctal.m in Sources */,
 				258E5A2C1DFA86DA00DDF32B /* AppDelegate.m in Sources */,
+				258E5A4A1DFA8CA900DDF32B /* RACSubject.m in Sources */,
 				258E5A291DFA86DA00DDF32B /* main.m in Sources */,
 				258E5A431DFA873F00DDF32B /* MainViewController.m in Sources */,
 			);
