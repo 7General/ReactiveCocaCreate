@@ -17,6 +17,18 @@
 		258E5A471DFA8C4800DDF32B /* RACSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A461DFA8C4800DDF32B /* RACSignal.m */; };
 		258E5A4A1DFA8CA900DDF32B /* RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A491DFA8CA900DDF32B /* RACSubject.m */; };
 		258E5A4D1DFA8D8900DDF32B /* RACBaseProctal.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A4C1DFA8D8900DDF32B /* RACBaseProctal.m */; };
+		25B0F37B1E10F1F300BD666F /* TextSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F37A1E10F1F300BD666F /* TextSubject.m */; };
+		25B0F37E1E10F57600BD666F /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F37D1E10F57600BD666F /* Constant.m */; };
+		25B0F3811E10F7C600BD666F /* RACStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3801E10F7C600BD666F /* RACStream.m */; };
+		25B0F3871E1101BC00BD666F /* UIControl+RACKVOEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3861E1101BC00BD666F /* UIControl+RACKVOEvents.m */; };
+		25B0F3941E111A8200BD666F /* RACTextSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3931E111A8200BD666F /* RACTextSignal.m */; };
+		25B0F39A1E11271B00BD666F /* TextSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3991E11271B00BD666F /* TextSignal.m */; };
+		25B0F3A21E125E3B00BD666F /* UITextField+Provate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3A11E125E3B00BD666F /* UITextField+Provate.m */; };
+		25B0F3A51E125E5400BD666F /* HSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3A41E125E5400BD666F /* HSignal.m */; };
+		25B0F3A81E125E6A00BD666F /* HProtocalBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3A71E125E6A00BD666F /* HProtocalBase.m */; };
+		25B0F3AB1E125F3900BD666F /* HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3AA1E125F3900BD666F /* HViewController.m */; };
+		25B0F3AE1E12695800BD666F /* HSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3AD1E12695800BD666F /* HSubject.m */; };
+		25B0F3B11E1272C200BD666F /* HTextSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3B01E1272C200BD666F /* HTextSignal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +50,30 @@
 		258E5A491DFA8CA900DDF32B /* RACSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSubject.m; sourceTree = "<group>"; };
 		258E5A4B1DFA8D8900DDF32B /* RACBaseProctal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseProctal.h; sourceTree = "<group>"; };
 		258E5A4C1DFA8D8900DDF32B /* RACBaseProctal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseProctal.m; sourceTree = "<group>"; };
+		25B0F3791E10F1F300BD666F /* TextSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSubject.h; sourceTree = "<group>"; };
+		25B0F37A1E10F1F300BD666F /* TextSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSubject.m; sourceTree = "<group>"; };
+		25B0F37C1E10F57600BD666F /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		25B0F37D1E10F57600BD666F /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		25B0F37F1E10F7C600BD666F /* RACStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACStream.h; sourceTree = "<group>"; };
+		25B0F3801E10F7C600BD666F /* RACStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACStream.m; sourceTree = "<group>"; };
+		25B0F3851E1101BC00BD666F /* UIControl+RACKVOEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+RACKVOEvents.h"; sourceTree = "<group>"; };
+		25B0F3861E1101BC00BD666F /* UIControl+RACKVOEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+RACKVOEvents.m"; sourceTree = "<group>"; };
+		25B0F3921E111A8200BD666F /* RACTextSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTextSignal.h; sourceTree = "<group>"; };
+		25B0F3931E111A8200BD666F /* RACTextSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTextSignal.m; sourceTree = "<group>"; };
+		25B0F3981E11271B00BD666F /* TextSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSignal.h; sourceTree = "<group>"; };
+		25B0F3991E11271B00BD666F /* TextSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSignal.m; sourceTree = "<group>"; };
+		25B0F3A01E125E3B00BD666F /* UITextField+Provate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Provate.h"; sourceTree = "<group>"; };
+		25B0F3A11E125E3B00BD666F /* UITextField+Provate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Provate.m"; sourceTree = "<group>"; };
+		25B0F3A31E125E5400BD666F /* HSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSignal.h; sourceTree = "<group>"; };
+		25B0F3A41E125E5400BD666F /* HSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSignal.m; sourceTree = "<group>"; };
+		25B0F3A61E125E6A00BD666F /* HProtocalBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HProtocalBase.h; sourceTree = "<group>"; };
+		25B0F3A71E125E6A00BD666F /* HProtocalBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HProtocalBase.m; sourceTree = "<group>"; };
+		25B0F3A91E125F3900BD666F /* HViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HViewController.h; sourceTree = "<group>"; };
+		25B0F3AA1E125F3900BD666F /* HViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HViewController.m; sourceTree = "<group>"; };
+		25B0F3AC1E12695800BD666F /* HSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSubject.h; sourceTree = "<group>"; };
+		25B0F3AD1E12695800BD666F /* HSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSubject.m; sourceTree = "<group>"; };
+		25B0F3AF1E1272C200BD666F /* HTextSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTextSignal.h; sourceTree = "<group>"; };
+		25B0F3B01E1272C200BD666F /* HTextSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTextSignal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,14 +149,62 @@
 		258E5A401DFA872300DDF32B /* CustomReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				25B0F39B1E12073200BD666F /* RACSignal */,
+				25B0F3881E1108AB00BD666F /* CocoaTextFiled */,
+				25B0F39F1E125E0500BD666F /* CustomSignal */,
+			);
+			name = CustomReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		25B0F3881E1108AB00BD666F /* CocoaTextFiled */ = {
+			isa = PBXGroup;
+			children = (
+				25B0F3921E111A8200BD666F /* RACTextSignal.h */,
+				25B0F3931E111A8200BD666F /* RACTextSignal.m */,
+				25B0F3851E1101BC00BD666F /* UIControl+RACKVOEvents.h */,
+				25B0F3861E1101BC00BD666F /* UIControl+RACKVOEvents.m */,
+				25B0F3981E11271B00BD666F /* TextSignal.h */,
+				25B0F3991E11271B00BD666F /* TextSignal.m */,
+			);
+			name = CocoaTextFiled;
+			sourceTree = "<group>";
+		};
+		25B0F39B1E12073200BD666F /* RACSignal */ = {
+			isa = PBXGroup;
+			children = (
 				258E5A4B1DFA8D8900DDF32B /* RACBaseProctal.h */,
 				258E5A4C1DFA8D8900DDF32B /* RACBaseProctal.m */,
+				25B0F37F1E10F7C600BD666F /* RACStream.h */,
+				25B0F3801E10F7C600BD666F /* RACStream.m */,
 				258E5A451DFA8C4800DDF32B /* RACSignal.h */,
 				258E5A461DFA8C4800DDF32B /* RACSignal.m */,
 				258E5A481DFA8CA900DDF32B /* RACSubject.h */,
 				258E5A491DFA8CA900DDF32B /* RACSubject.m */,
+				25B0F3791E10F1F300BD666F /* TextSubject.h */,
+				25B0F37A1E10F1F300BD666F /* TextSubject.m */,
+				25B0F37C1E10F57600BD666F /* Constant.h */,
+				25B0F37D1E10F57600BD666F /* Constant.m */,
 			);
-			name = CustomReactiveCocoa;
+			name = RACSignal;
+			sourceTree = "<group>";
+		};
+		25B0F39F1E125E0500BD666F /* CustomSignal */ = {
+			isa = PBXGroup;
+			children = (
+				25B0F3A61E125E6A00BD666F /* HProtocalBase.h */,
+				25B0F3A71E125E6A00BD666F /* HProtocalBase.m */,
+				25B0F3A31E125E5400BD666F /* HSignal.h */,
+				25B0F3A41E125E5400BD666F /* HSignal.m */,
+				25B0F3AC1E12695800BD666F /* HSubject.h */,
+				25B0F3AD1E12695800BD666F /* HSubject.m */,
+				25B0F3AF1E1272C200BD666F /* HTextSignal.h */,
+				25B0F3B01E1272C200BD666F /* HTextSignal.m */,
+				25B0F3A01E125E3B00BD666F /* UITextField+Provate.h */,
+				25B0F3A11E125E3B00BD666F /* UITextField+Provate.m */,
+				25B0F3A91E125F3900BD666F /* HViewController.h */,
+				25B0F3AA1E125F3900BD666F /* HViewController.m */,
+			);
+			name = CustomSignal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,13 +278,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B0F3811E10F7C600BD666F /* RACStream.m in Sources */,
+				25B0F3AB1E125F3900BD666F /* HViewController.m in Sources */,
 				258E5A2F1DFA86DA00DDF32B /* ViewController.m in Sources */,
+				25B0F3A81E125E6A00BD666F /* HProtocalBase.m in Sources */,
+				25B0F39A1E11271B00BD666F /* TextSignal.m in Sources */,
 				258E5A471DFA8C4800DDF32B /* RACSignal.m in Sources */,
+				25B0F3871E1101BC00BD666F /* UIControl+RACKVOEvents.m in Sources */,
 				258E5A4D1DFA8D8900DDF32B /* RACBaseProctal.m in Sources */,
 				258E5A2C1DFA86DA00DDF32B /* AppDelegate.m in Sources */,
 				258E5A4A1DFA8CA900DDF32B /* RACSubject.m in Sources */,
+				25B0F37B1E10F1F300BD666F /* TextSubject.m in Sources */,
 				258E5A291DFA86DA00DDF32B /* main.m in Sources */,
+				25B0F37E1E10F57600BD666F /* Constant.m in Sources */,
+				25B0F3941E111A8200BD666F /* RACTextSignal.m in Sources */,
+				25B0F3A51E125E5400BD666F /* HSignal.m in Sources */,
 				258E5A431DFA873F00DDF32B /* MainViewController.m in Sources */,
+				25B0F3A21E125E3B00BD666F /* UITextField+Provate.m in Sources */,
+				25B0F3AE1E12695800BD666F /* HSubject.m in Sources */,
+				25B0F3B11E1272C200BD666F /* HTextSignal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +453,7 @@
 				258E5A3D1DFA86DA00DDF32B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

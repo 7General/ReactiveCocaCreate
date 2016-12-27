@@ -9,9 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "RACBaseProctal.h"
 
+
+
 @interface RACSignal : NSObject
 
 - (NSMutableArray *)subscribe:(id<RACBaseProctal>)subscriber;
 
 - (NSMutableArray * )subscribeNext:(void (^)(id x))nextBlock;
+
+
+
+
+
+
 @end

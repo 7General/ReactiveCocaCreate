@@ -8,9 +8,7 @@
 
 #import "RACSignal.h"
 
-
 @implementation RACSignal
-
 - (NSMutableArray * )subscribeNext:(void (^)(id x))nextBlock {
     NSCParameterAssert(nextBlock != NULL);
     RACBaseProctal * Proctal = [RACBaseProctal subscriberWithNext:nextBlock];
@@ -21,6 +19,12 @@
     NSCAssert(NO, @"This method must be overridden by subclasses");
     return nil;
 }
+
+
+//- (NSMutableArray *)subscribe:(id<RACBaseProctal>)subscriber {
+//
+//
+//}
 
 
 @end

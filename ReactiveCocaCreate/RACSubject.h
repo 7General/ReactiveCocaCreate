@@ -11,6 +11,4 @@
 #import "RACSignal.h"
 @interface RACSubject : RACSignal<RACBaseProctal>
 + (instancetype)subject;
-
-
 @end

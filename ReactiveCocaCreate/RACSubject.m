@@ -19,16 +19,13 @@
     return [[self alloc] init];
 }
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         _subscribers = [[NSMutableArray alloc] initWithCapacity:1];
     }
     return self;
 }
-
-
 
 - (NSMutableArray *)subscribe:(id<RACBaseProctal>)subscriber {
     NSCParameterAssert(subscriber != nil);
@@ -45,24 +42,18 @@
        // }];
        // if (index != NSNotFound) [subscribers removeObjectAtIndex:index];
     }
-    
     return subscribers;
 }
-
-
 
 - (void)enumerateSubscribersUsingBlock:(void (^)(id<RACBaseProctal> subscriber))block {
     NSArray *subscribers;
     @synchronized (self.subscribers) {
         subscribers = [self.subscribers copy];
     }
-    
     for (id<RACBaseProctal> subscriber in subscribers) {
         block(subscriber);
     }
 }
-
-
 
 #pragma mark - RACBaseProctalDelegate
 - (void)sendNext:(id)value {
@@ -70,13 +61,5 @@
         [subscriber sendNext:value];
     }];
 }
-
-
-
-
-
-
-
-
 
 @end
