@@ -12,11 +12,8 @@
 @class HSubject;
 @class HTextSignal;
 
-@interface HSignal : NSObject
-/**创建信号*/
-+ (HSignal *)createSignal:(void(^)(id<HProtocalBase> subscriber))didSubscribe;
-//
-- (HSignal *)contetEvents:(void(^)(id<HProtocalBase> next))createdComplated;
+@interface HSignal : NSObject<HProtocalBase>
+
 
 - (void)subscribeNext:(void (^)(id x))nextBlock;
 

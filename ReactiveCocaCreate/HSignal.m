@@ -24,22 +24,5 @@
 }
 
 
-#pragma mark - 创建信号工具
-+ (HSignal *)createSignal:(void(^)(id<HProtocalBase> subscriber))didSubscribe{
-    // 1：创建开始就要发送数据
-    NSLog(@"111111");
-    HSubject * signal = [HSubject subscriberWithNext:didSubscribe];
-    return signal;
-}
-
-- (HSignal *)contetEvents:(void(^)(id<HProtocalBase> next))createdComplated {
-    HSubject * subj = [HSubject hSubject];
-    if (createdComplated) {
-        createdComplated(subj);
-    }
-    NSLog(@"22222222");
-    return subj;
-}
-
 
 @end

@@ -12,6 +12,7 @@
 
 @interface HViewController ()
 @property (nonatomic, strong) UITextField * userNameFiled;
+@property (nonatomic, strong) HSubject * signal;
 @end
 
 @implementation HViewController
@@ -31,9 +32,9 @@
     self.userNameFiled = [[UITextField alloc] initWithFrame:CGRectMake(50, 100, 100, 40)];
     self.userNameFiled.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.userNameFiled];
-//    [self.userNameFiled rac_textSignal];
-    [self.userNameFiled.rac_textSignal subscribeNext:^(id x) {
-        NSLog(@"-------------------------->>>>>>>>>>>>>>>>>");
+    self.signal = self.userNameFiled.rac_textSignal;
+    [self.signal subscribeNext:^(id x) {
+        NSLog(@"-------------------------->>>>>>>>>>>>>>>>>%@",x);
     }];
     
     

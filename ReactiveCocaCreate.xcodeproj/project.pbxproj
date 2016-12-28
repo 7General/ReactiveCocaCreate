@@ -17,7 +17,6 @@
 		258E5A471DFA8C4800DDF32B /* RACSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A461DFA8C4800DDF32B /* RACSignal.m */; };
 		258E5A4A1DFA8CA900DDF32B /* RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A491DFA8CA900DDF32B /* RACSubject.m */; };
 		258E5A4D1DFA8D8900DDF32B /* RACBaseProctal.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A4C1DFA8D8900DDF32B /* RACBaseProctal.m */; };
-		25B0F37B1E10F1F300BD666F /* TextSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F37A1E10F1F300BD666F /* TextSubject.m */; };
 		25B0F37E1E10F57600BD666F /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F37D1E10F57600BD666F /* Constant.m */; };
 		25B0F3811E10F7C600BD666F /* RACStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3801E10F7C600BD666F /* RACStream.m */; };
 		25B0F3871E1101BC00BD666F /* UIControl+RACKVOEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B0F3861E1101BC00BD666F /* UIControl+RACKVOEvents.m */; };
@@ -50,8 +49,6 @@
 		258E5A491DFA8CA900DDF32B /* RACSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSubject.m; sourceTree = "<group>"; };
 		258E5A4B1DFA8D8900DDF32B /* RACBaseProctal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACBaseProctal.h; sourceTree = "<group>"; };
 		258E5A4C1DFA8D8900DDF32B /* RACBaseProctal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACBaseProctal.m; sourceTree = "<group>"; };
-		25B0F3791E10F1F300BD666F /* TextSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSubject.h; sourceTree = "<group>"; };
-		25B0F37A1E10F1F300BD666F /* TextSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSubject.m; sourceTree = "<group>"; };
 		25B0F37C1E10F57600BD666F /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		25B0F37D1E10F57600BD666F /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
 		25B0F37F1E10F7C600BD666F /* RACStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACStream.h; sourceTree = "<group>"; };
@@ -180,8 +177,6 @@
 				258E5A461DFA8C4800DDF32B /* RACSignal.m */,
 				258E5A481DFA8CA900DDF32B /* RACSubject.h */,
 				258E5A491DFA8CA900DDF32B /* RACSubject.m */,
-				25B0F3791E10F1F300BD666F /* TextSubject.h */,
-				25B0F37A1E10F1F300BD666F /* TextSubject.m */,
 				25B0F37C1E10F57600BD666F /* Constant.h */,
 				25B0F37D1E10F57600BD666F /* Constant.m */,
 			);
@@ -288,7 +283,6 @@
 				258E5A4D1DFA8D8900DDF32B /* RACBaseProctal.m in Sources */,
 				258E5A2C1DFA86DA00DDF32B /* AppDelegate.m in Sources */,
 				258E5A4A1DFA8CA900DDF32B /* RACSubject.m in Sources */,
-				25B0F37B1E10F1F300BD666F /* TextSubject.m in Sources */,
 				258E5A291DFA86DA00DDF32B /* main.m in Sources */,
 				25B0F37E1E10F57600BD666F /* Constant.m in Sources */,
 				25B0F3941E111A8200BD666F /* RACTextSignal.m in Sources */,

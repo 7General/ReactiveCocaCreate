@@ -17,9 +17,17 @@
 
 @implementation HSubject
 
-
 +(instancetype)hSubject {
     return [[self alloc] init];
+}
+
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _subscribers = [[NSMutableArray alloc] initWithCapacity:1];
+    }
+    return self;
 }
 
 - (void)subscribeNext:(void (^)(id x))nextBlock {
@@ -57,7 +65,6 @@
 
 #pragma mark - RACBaseProctalDelegate
 - (void)sendNext:(id)value {
-    NSLog(@"----HSubject");
     [self enumerateSubscribersUsingBlock:^(id<HProtocalBase> subscriber) {
         [subscriber sendNext:value];
     }];
@@ -71,17 +78,22 @@
 }
 
 
--(void)goes {
-    NSLog(@"----goes");
+
+
+//******************
++ (HSubject *)createSignal:(void(^)(id<HProtocalBase> subscriber))didSubscribe{
+    // 1：创建开始就要发送数据
+    HSubject * signal = [HSubject subscriberWithNext:didSubscribe];
+    return signal;
 }
-//-(void)sendNext:(id)value {
-//    NSLog(@"----RACTextSignal-----sendNext---value:%@",value);
-//    @synchronized (self) {
-//        void (^nextBlock)(id) = [self.TextNext copy];
-//        if (nextBlock == nil) return;
-//        nextBlock(value);
-//    }
-//}
+
+- (HSubject *)contetEvents:(void(^)(id<HProtocalBase> next))createdComplated {
+    HSubject * subj = [HSubject hSubject];
+    if (createdComplated) {
+        createdComplated(subj);
+    }
+    return subj;
+}
 
 
 @end

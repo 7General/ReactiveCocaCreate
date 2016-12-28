@@ -1,39 +1,27 @@
-//
-//  UITextField+Provate.m
-//  ReactiveCocaCreate
-//
-//  Created by 王会洲 on 16/12/27.
-//  Copyright © 2016年 王会洲. All rights reserved.
-//
-
 #import "UITextField+Provate.h"
 #import "HTextSignal.h"
 #import "HSubject.h"
 
+
 @implementation UITextField (Provate)
--(void)H_addEvents {
-    [self addTarget:self action:@selector(textFile:) forControlEvents:UIControlEventAllEvents];
-}
--(void)textFile:(UITextField *)sender {
-    NSLog(@"-----%@",sender.text);
-    HSubject * subg = [HSubject hSubject];
-    [subg sendNext:sender.text];
-}
+
+//-(void)H_addEvents {
+//    [self addTarget:self action:@selector(textFile:) forControlEvents:UIControlEventAllEvents];
+//}
+//-(void)textFile:(UITextField *)sender {
+//    NSLog(@"-----%@",sender.text);
+//
+//    [[self rac_textSignal] sendNext:sender.text];
+//}
 
 
-- (HSignal *)rac_textSignal {
-    HSignal * signal = [[HSignal createSignal:^(id<HProtocalBase> subscriber) {
-        NSLog(@"----rac_textSignal");
+- (HSubject *)rac_textSignal {
+    HSubject * signal = [[HSubject createSignal:^(id<HProtocalBase> subscriber) {
+    
     }] contetEvents:^(id<HProtocalBase> next) {
-        [self addTarget:next action:@selector(goes) forControlEvents:UIControlEventAllEvents];
+        [self addTarget:next action:@selector(sendNext:) forControlEvents:UIControlEventAllEvents];
     }];
-    
-    
-    return  signal;
+    return signal;
 }
-
-
-
-
 
 @end

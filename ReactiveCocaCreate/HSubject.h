@@ -15,6 +15,10 @@
 +(instancetype)hSubject;
 
 /**创建信号*/
-+ (instancetype)subscriberWithNext:(void (^)(id<HProtocalBase> next))TextNext;
+- (void)subscribeNext:(void (^)(id x))nextBlock;
+
+/**创建信号*/
++ (HSubject *)createSignal:(void(^)(id<HProtocalBase> subscriber))didSubscribe;
+- (HSubject *)contetEvents:(void(^)(id<HProtocalBase> next))createdComplated;
 
 @end

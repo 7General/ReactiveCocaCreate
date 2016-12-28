@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import "RACSubject.h"
-#import "TextSubject.h"
+
 #import "UIControl+RACKVOEvents.h"
 #import "TextSignal.h"
 

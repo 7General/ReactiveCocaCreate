@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HSignal.h"
+
 @class HSubject;
 
 @interface UITextField (Provate)
--(void)H_addEvents;
 
-- (HSignal *)rac_textSignal;
+
+- (HSubject *)rac_textSignal;
+
+
+
 @end
