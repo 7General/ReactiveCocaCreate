@@ -25,7 +25,6 @@
 }
 
 -(void)sendNext:(id)value {
-    NSLog(@"----HTextSignal");
     @synchronized (self) {
         void (^nextBlock)(id) = [self.TextNext copy];
         if (nextBlock == nil) return;

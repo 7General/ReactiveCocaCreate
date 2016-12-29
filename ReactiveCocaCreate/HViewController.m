@@ -34,8 +34,20 @@
     [self.view addSubview:self.userNameFiled];
     self.signal = self.userNameFiled.rac_textSignal;
     [self.signal subscribeNext:^(id x) {
-        NSLog(@"-------------------------->>>>>>>>>>>>>>>>>%@",x);
+        NSLog(@"--1------------------------>>>>>>>>>>>>>>>>>%@",x);
     }];
+    
+
+    
+//    HSubject * signalC = self.userNameFiled.rac_textSignal;
+//    [signalC subscribeNext:^(id x) {
+//        NSLog(@"--->>>>>>>>>>>>>>>22>>%@",x);
+//    }];
+    
+//    [self.userNameFiled.rac_textSignal subscribeNext:^(id x) {
+//        NSLog(@"--->>>>>>>>>>>>>>>22>>%@",x);
+//    }];
+//    
     
     
     
